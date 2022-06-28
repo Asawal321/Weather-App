@@ -1,0 +1,94 @@
+.gridContianer{
+  display: grid;
+  width: 600px;
+  height: 400px;
+  grid-template-rows: 140px 180px 80px;
+  background-color: rgba(189, 101, 101, 0.8);
+  margin-left: 100px;
+  }
+.gridItem1{
+  background-color: rgb(177, 167, 187);
+  color: beige;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+;}
+            
+.gridItem2{
+  background-color: rgba(15, 15, 15, 0.452);
+  color: white;
+ 
+}
+.gridItem3{
+  background-color: rgb(165, 140, 211);
+  display: flex;
+  flex-wrap: wrap;
+}
+.inn_row{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.left_column{
+  background-color: rgb(0, 0, 0);
+  width:60%;
+  height:180px;
+  color: aliceblue;
+  padding-left: 50px;
+  padding-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.right_column{
+ padding: 45px 0px 0px 10px;
+  
+}
+
+.right_colm{
+  background-color: white;
+  color: black;
+  width: 30%;
+  text-align: center;
+}
+.deg{
+  font-size: 60px;
+  
+}
+.city{
+  font-size: 30px;
+}
+.weather_condition{
+  display: block;
+}
+.conditions{
+  font-size: 20px;
+  margin-left: 35px;
+  margin-top: 11px;
+}
+.icon1{
+  
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+.content1{
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.content_container1{
+  margin-left:10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content_container2{
+  margin-left:70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.search{
+  margin:0px 0px 10px 280px;
+}
