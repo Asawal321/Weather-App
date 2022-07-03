@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { WiDaySunny, WiHumidity, WiSleet, WiSandstorm } from "react-icons/wi";
+//import { BsSearch } from "react-icons/bs";
 
 const Weather = () => {
   const [searchValue, setSearchValue] = useState("");
@@ -46,8 +47,7 @@ const Weather = () => {
   }, []);
 
   return (
-    <div>
-      <h2>This is my weather app</h2>
+    <div className="body">
       <div className="search">
         <input
           type="search"
